@@ -1,0 +1,43 @@
+@font-face {
+    font-family: digital-clock;
+    src: url('../fonts/DS-DIGIB.TTF');
+}
+
+body {
+    /* background-color: black; */
+    background-image: url('../images/mayur-deshpande-zZPeoLxLRyM-unsplash.jpg');
+    background-size: cover;
+    color: green;
+    margin-top: 80px;
+    font-family: digital-clock;
+}
+
+#time {
+    font-size: 250px;
+    src: url('../fonts/DS-DIGIB.TTF');
+}
+
+#day-or-night {
+    font-size: 50px;
+}
+
+.clock-container {
+    /* center the div and it's content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-background {
+    /* border: 5px dotted green;
+    border-radius: 15px; */
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+    /* background-color: rgb(14, 14, 14); */
+    background-image: url('../images/digital-clock-frame-edited.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: top;
+    text-align: center;
+}
